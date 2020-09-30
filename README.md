@@ -1,5 +1,8 @@
 # 14.33 Short Project
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
 PythonDataCleaning
 =============
@@ -37,6 +40,8 @@ Voting.xlsx
 
 This is the given voting dataset 
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Stata
 =============
