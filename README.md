@@ -24,7 +24,11 @@ PresidentalReturns- Contains voting data from 2000-2016 at the county level from
 Python Script (ExcelDataCleaner)
 ===============
 
-To run this script you must change the pathing information to the one that fits your path after you download everything
+To run this script you must change the pathing information to the one that fits your path after you download everything. Afterwards just run the script.
+
+ex: If you see os.chdir(r"C:\\Users\\larry\\Dropbox (MIT)\\Main\\MIT 2020\\14.33\\PythonDataCleaning\\data\\PresidentalReturns\\") 
+
+Change over to the path you stored the folder in
 
 
 Voting.xlsx
