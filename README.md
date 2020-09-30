@@ -1,7 +1,8 @@
 # 14.33 Short Project
 
 
-In the PythonDataCleaning folder there are the follow: 3 folders, the given voting.xlsx dataset, and a python script.
+PythonDataCleaning
+=============
 
 Three folders 
 -------------
@@ -35,3 +36,17 @@ Voting.xlsx
 -------------
 
 This is the given voting dataset 
+
+
+Stata
+=============
+
+CleanedData.xlsx
+-------------
+
+This is the same excel file from the CleandedData folder use this information as an input to Stata
+
+project.do
+-------------
+
+Do file for Stata where the regressions are run
