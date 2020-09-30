@@ -1,7 +1,7 @@
 # 14.33 Short Project
 
 
-In the ShortProject folder there are the follow: 2 folders, the given voting.xlsx dataset, and a python script.
+In the PythonDataCleaning folder there are the follow: 3 folders, the given voting.xlsx dataset, and a python script.
 
 Three folders 
 ===============
