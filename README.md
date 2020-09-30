@@ -1,10 +1,9 @@
 # 14.33 Short Project
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 
-PythonDataCleaning
+PythonDataCleaning Folder
 =============
 
 Three folders 
@@ -43,7 +42,7 @@ This is the given voting dataset
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-Stata
+Stata Folder
 =============
 
 CleanedData.xlsx
