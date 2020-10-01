@@ -55,7 +55,7 @@ project.do
 
 Do file for Stata where the regressions are run, import the CleanedData.xlsx
 
-regression_results
+regression_results.xlsx
 -------------
 
 Created from the stata file
