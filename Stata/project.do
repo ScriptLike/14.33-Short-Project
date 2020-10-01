@@ -7,7 +7,7 @@ regress voter_percent educSomeCollege educCollegeUp
 
 outreg2 using regression_results, replace excel dec(3)
 
-regress voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian median_income_list percentPopulationOver18Male
+regress voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian householdMedianIncome percentPopulationOver18Male
 
 outreg2 using regression_results, append excel dec(3)
 
@@ -16,7 +16,9 @@ xtset id year
 
 /* just state effect */
 
-xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian median_income_list percentPopulationOver18Male, fe vce(cl id)
+xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian householdMedianIncome percentPopulationOver18Male, fe vce(cl id)
+
+outreg2 using regression_results, append excel dec(3)
 
 /* Both state and time effects */
 
@@ -28,11 +30,11 @@ xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsi
 
 outreg2 using regression_results, append excel dec(3)
 
-xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian median_income_list i.year, fe vce(cl id)
+xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian householdMedianIncome i.year, fe vce(cl id)
 
 outreg2 using regression_results, append excel dec(3)
 
-xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian median_income_list percentPopulationOver18Male i.year, fe vce(cl id)
+xtreg voter_percent educSomeCollege educCollegeUp shareBlack shareWhite shareAsian householdMedianIncome percentPopulationOver18Male i.year, fe vce(cl id)
 
 outreg2 using regression_results, append excel dec(3)
 

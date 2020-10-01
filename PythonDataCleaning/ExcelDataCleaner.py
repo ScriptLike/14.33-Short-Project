@@ -85,7 +85,7 @@ def create_income_dict(year):
 
 	dictionary_income = {}
 	dictionary_income['id'] = id_list
-	dictionary_income['median_income_list'] = median_income_list
+	dictionary_income['householdMedianIncome'] = median_income_list
 
 	return dictionary_income
 
