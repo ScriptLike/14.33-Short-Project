@@ -53,4 +53,10 @@ This is the same excel file from the CleandedData folder use this information as
 project.do
 -------------
 
-Do file for Stata where the regressions are run
+Do file for Stata where the regressions are run, import the CleanedData.xlsx
+
+regression_results
+-------------
+
+Created from the stata file
+
