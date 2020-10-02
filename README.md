@@ -58,5 +58,10 @@ Do file for Stata where the regressions are run, import the CleanedData.xlsx
 regression_results.xlsx
 -------------
 
-Created from the stata file
+Created from the project.do
+
+Chart1.PNG
+-------------
+
+Just a picture from the chart in regression_results.xlsx
 
